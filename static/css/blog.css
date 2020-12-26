@@ -1,0 +1,71 @@
+#sidebar h2{
+color:blue;
+padding:5px 5px 5px 5px;
+}
+
+#sidebar p{
+padding:5px 5px 5px 5px;
+}
+
+.main .date{
+font-style:italic;
+}
+
+
+.h1 {
+color:red;
+font-family:Arial;
+}
+
+.n1{
+border-top:1px solid red;
+width:72%;
+margin-left:0;
+
+}
+
+
+#sidebar {
+  width:400px;
+  height:150px;
+  position: fixed;
+  z-index: 1;
+  top: 30px;
+  left:860px;
+  background: #eee;
+  overflow-x: hidden;
+}
+
+.comment{
+background: #eee;
+padding-right:auto;
+width:700px;
+
+}
+
+.comment p {
+font-family:Arial;
+text-align:justify;
+padding-right:100px;
+}
+
+
+.main{
+margin-right:140px;
+font-size:18px;
+padding:0px 10px;
+text-align:justify;
+
+}
+
+p{
+padding-right:300px;
+}
+
+.main div {
+text-align:left;
+}
+
+h2{
+color:Blue;
+}

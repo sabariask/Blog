@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}{% endblock %}</title>
+        {% load static %}
+        <link type="text/css" href="{% static 'css/blog.css' %}" rel='stylesheet'>
+    </head>
+    <body>
+        <div id="content">
+            {% block content %}
+            {% endblock %}
+        </div>
+        <div id="sidebar">
+             <h2>Django Project</h2>
+             <p>Tecci world</p>
+        </div>
+    </body>
+</html>
