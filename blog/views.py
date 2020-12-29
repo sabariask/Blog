@@ -46,6 +46,21 @@ def post_detail(request,year, month, day, post):
     return render(request,'blog/post/detail.html',{'post':post,'comments':comments,'new_comment':new_comment,'comment_form':comment_form})
     
     
+def post_create(request):
+    post = get_object_or_404(Post)
+    if request.method=="POST":
+        if form.is_valid():
+            form.post = post
+            form.save()
+            form.save()
+            return redirect('/mysite')
+    else:
+        form = Post()
+        
+        return render(request,'blog/post/create.html')
+
+    
+
     
 def post_share(request, post_id):
     post = get_object_or_404(Post, id=post_id, status='published')
