@@ -14,7 +14,7 @@ class PostListView(ListView):
 
 
 # Create your views here.
-
+# added new changes
 def post_list(request):
     object_list = Post.objects.all()
     paginator = Paginator(object_list, 3)
