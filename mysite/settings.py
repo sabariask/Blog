@@ -26,9 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'i#kbn&8zdb)ns)b4-@_n&8f5emagu9judy&g@irw2*2qkc22x5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://django-blog-17c42.firebaseapp.com/']
 
 # Application definition
 
